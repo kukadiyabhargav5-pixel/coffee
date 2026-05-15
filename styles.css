@@ -200,7 +200,7 @@ img{display:block;max-width:100%}a{text-decoration:none;color:inherit}
   .nav{padding:1rem 1.5rem}.nav.scrolled{padding:.7rem 1.5rem}
   .nav-links,.nav-cta{display:none}.nav-hamburger{display:flex}
   .hero-content{padding:2rem 2rem 2rem 2.5rem;max-width:100%}
-  .hero-video{object-fit:contain;background:#000;object-position:center 10vh;transform:scale(1.2)}
+  .hero-video{object-fit:contain;background:#000;object-position:center 18vh;transform:scale(1.2)}
   .hero-title{font-size:clamp(2.2rem,8vw,3.5rem)}
   .section{padding:5rem 1.5rem}
   .product-grid{grid-template-columns:1fr;gap:2.5rem}
