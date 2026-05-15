@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BHARTI GLOOMS — AUREN Premium Cold Brew Coffee. Elevate your cold brew experience with cinematic elegance and rich, smooth flavors.">
+    <meta name="keywords" content="cold brew, iced coffee, premium coffee, BHARTI GLOOMS, AUREN, cold coffee brand">
+    <meta name="author" content="BHARTI GLOOMS">
+    <title>BHARTI GLOOMS — AUREN Premium Cold Brew</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@200;300;400;500;600&family=Outfit:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-brand">BHARTI GLOOMS</div>
+            <div class="preloader-sub">Loading Experience</div>
+            <div class="preloader-bar">
+                <div class="preloader-progress" id="preloaderProgress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo" id="navLogo">
+                <span class="logo-bharti">BHARTI</span>
+                <span class="logo-glooms">GLOOMS</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#product" class="nav-link" data-hover="Product">Product</a>
+                <a href="#sensory" class="nav-link" data-hover="Sensory">Sensory</a>
+                <a href="#story" class="nav-link" data-hover="Story">Story</a>
+                <a href="#variants" class="nav-link" data-hover="Variants">Variants</a>
+            </div>
+            <a href="#cta" class="nav-cta" id="navCta">Experience AUREN</a>
+            <button class="nav-hamburger" id="navHamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-inner">
+            <a href="#product" class="mobile-link">Product</a>
+            <a href="#sensory" class="mobile-link">Sensory</a>
+            <a href="#story" class="mobile-link">Story</a>
+            <a href="#variants" class="mobile-link">Variants</a>
+            <a href="#cta" class="mobile-link mobile-cta">Experience AUREN</a>
+        </div>
+    </div>
+
+    <!-- Hero Section - Video Background -->
+    <section id="hero" class="hero">
+        <div class="hero-video-wrapper">
+            <video autoplay loop muted playsinline class="hero-video">
+                <source src="IMAGE/iced-coffee-reveal.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-tag" id="heroTag">AUREN COLLECTION</div>
+            <h1 class="hero-title" id="heroTitle">
+                <span class="title-line">Elevate Your</span>
+                <span class="title-line title-accent">Cold Brew</span>
+            </h1>
+            <p class="hero-sub" id="heroSub">Crafted with precision. Served with soul. A cold brew experience that transcends the ordinary.</p>
+            <a href="#cta" class="hero-btn" id="heroBtn">
+                <span class="btn-text">Experience AUREN</span>
+                <span class="btn-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                    </svg>
+                </span>
+            </a>
+        </div>
+        <div class="hero-scroll-indicator" id="scrollIndicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text">Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Product Experience Section -->
+    <section id="product" class="section section-product">
+        <div class="section-inner">
+            <div class="product-grid">
+                <div class="product-visual reveal-left">
+                    <div class="product-image-wrapper">
+                        <img src="IMAGE/ezgif-frame-001.jpg" alt="AUREN Cold Brew - Glass of iced coffee" class="product-img" loading="lazy" id="productImg1">
+                        <div class="product-img-glow"></div>
+                    </div>
+                </div>
+                <div class="product-info reveal-right">
+                    <span class="section-label">THE PRODUCT</span>
+                    <h2 class="section-title">Cold Brew.<br><em>Redefined.</em></h2>
+                    <p class="section-text">Every glass of AUREN is a masterpiece — slow-steeped for 18 hours, filtered through precision craft, and served at the perfect chill. The result is a brew so smooth, so rich, it redefines what cold coffee can be.</p>
+                    <div class="product-details">
+                        <div class="detail-item">
+                            <span class="detail-number">18</span>
+                            <span class="detail-label">Hours Cold Steeped</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-number">330</span>
+                            <span class="detail-label">ML Per Serve</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-number">100%</span>
+                            <span class="detail-label">Arabica Beans</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cinematic Divider -->
+    <div class="cinematic-divider">
+        <div class="divider-frame-wrapper">
+            <img src="IMAGE/ezgif-frame-040.jpg" alt="Coffee splash moment" class="divider-frame" loading="lazy">
+            <div class="divider-overlay"></div>
+            <div class="divider-text reveal-up">
+                <span class="divider-quote">"Where ice meets artistry"</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sensory / Ingredients Section -->
+    <section id="sensory" class="section section-sensory">
+        <div class="section-inner">
+            <div class="sensory-header reveal-up">
+                <span class="section-label">THE SENSORY</span>
+                <h2 class="section-title">Feel Every<br><em>Element.</em></h2>
+            </div>
+            <div class="sensory-grid">
+                <div class="sensory-card reveal-up" style="--delay: 0s">
+                    <div class="sensory-card-img-wrap">
+                        <img src="IMAGE/ezgif-frame-025.jpg" alt="Crystal ice cubes falling into cold brew" class="sensory-card-img" loading="lazy">
+                        <div class="sensory-card-overlay"></div>
+                    </div>
+                    <div class="sensory-card-content">
+                        <h3 class="sensory-card-title">Crystal Ice</h3>
+                        <p class="sensory-card-text">Precision-cut ice cubes that chill without diluting. Every cube engineered to preserve the brew's integrity.</p>
+                    </div>
+                </div>
+                <div class="sensory-card reveal-up" style="--delay: 0.15s">
+                    <div class="sensory-card-img-wrap">
+                        <img src="IMAGE/ezgif-frame-050.jpg" alt="Rich smooth coffee texture" class="sensory-card-img" loading="lazy">
+                        <div class="sensory-card-overlay"></div>
+                    </div>
+                    <div class="sensory-card-content">
+                        <h3 class="sensory-card-title">Velvet Texture</h3>
+                        <p class="sensory-card-text">An impossibly smooth mouthfeel achieved through our proprietary cold-steeping method and micro-filtration.</p>
+                    </div>
+                </div>
+                <div class="sensory-card reveal-up" style="--delay: 0.3s">
+                    <div class="sensory-card-img-wrap">
+                        <img src="IMAGE/ezgif-frame-070.jpg" alt="Rich dark coffee with ice" class="sensory-card-img" loading="lazy">
+                        <div class="sensory-card-overlay"></div>
+                    </div>
+                    <div class="sensory-card-content">
+                        <h3 class="sensory-card-title">Deep Richness</h3>
+                        <p class="sensory-card-text">Single-origin Arabica beans roasted to a dark, chocolatey depth that lingers with every sip.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section id="story" class="section section-story">
+        <div class="story-bg-wrapper">
+            <img src="IMAGE/ezgif-frame-010.jpg" alt="AUREN cold brew background" class="story-bg-img" loading="lazy">
+            <div class="story-bg-overlay"></div>
+        </div>
+        <div class="section-inner">
+            <div class="story-content">
+                <div class="story-left reveal-left">
+                    <span class="section-label">OUR STORY</span>
+                    <h2 class="section-title story-title">Born From<br><em>Obsession.</em></h2>
+                </div>
+                <div class="story-right reveal-right">
+                    <div class="story-paragraphs">
+                        <p class="story-para">AUREN was born from a singular obsession — to craft the perfect cold brew. Not just another iced coffee, but a sensory experience that rivals fine wine in its complexity and depth.</p>
+                        <p class="story-para">Our founders spent three years traveling the world's finest coffee regions, from the misty highlands of Ethiopia to the volcanic slopes of Colombia, searching for beans that would transform the cold brew experience.</p>
+                        <p class="story-para">The result is AUREN — a cold brew that doesn't just quench thirst, but awakens the senses. Every batch is a testament to our relentless pursuit of perfection.</p>
+                    </div>
+                    <div class="story-signature">
+                        <span class="signature-dash"></span>
+                        <span class="signature-text">BHARTI GLOOMS, EST. 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Variants Section -->
+    <section id="variants" class="section section-variants">
+        <div class="section-inner">
+            <div class="variants-header reveal-up">
+                <span class="section-label">THE COLLECTION</span>
+                <h2 class="section-title">Find Your<br><em>Signature.</em></h2>
+            </div>
+            <div class="variants-grid">
+                <div class="variant-card reveal-up" style="--delay: 0s">
+                    <div class="variant-img-wrap">
+                        <img src="IMAGE/ezgif-frame-001.jpg" alt="AUREN Classic Cold Brew" class="variant-img" loading="lazy">
+                        <div class="variant-badge">Signature</div>
+                    </div>
+                    <div class="variant-info">
+                        <h3 class="variant-name">Classic</h3>
+                        <p class="variant-desc">Pure, uncompromised cold brew. Bold, smooth, and timeless.</p>
+                        <span class="variant-tag">330ML · COLD BREWED</span>
+                    </div>
+                </div>
+                <div class="variant-card reveal-up" style="--delay: 0.1s">
+                    <div class="variant-img-wrap">
+                        <img src="IMAGE/ezgif-frame-060.jpg" alt="AUREN Vanilla Cold Brew" class="variant-img" loading="lazy">
+                        <div class="variant-badge">New</div>
+                    </div>
+                    <div class="variant-info">
+                        <h3 class="variant-name">Vanilla</h3>
+                        <p class="variant-desc">Madagascar vanilla infused with silky cold brew elegance.</p>
+                        <span class="variant-tag">330ML · COLD BREWED</span>
+                    </div>
+                </div>
+                <div class="variant-card reveal-up" style="--delay: 0.2s">
+                    <div class="variant-img-wrap">
+                        <img src="IMAGE/ezgif-frame-080.jpg" alt="AUREN Hazelnut Cold Brew" class="variant-img" loading="lazy">
+                    </div>
+                    <div class="variant-info">
+                        <h3 class="variant-name">Hazelnut</h3>
+                        <p class="variant-desc">Roasted hazelnut notes woven into a velvety cold brew base.</p>
+                        <span class="variant-tag">330ML · COLD BREWED</span>
+                    </div>
+                </div>
+                <div class="variant-card reveal-up" style="--delay: 0.3s">
+                    <div class="variant-img-wrap">
+                        <img src="IMAGE/ezgif-frame-100.jpg" alt="AUREN Mocha Cold Brew" class="variant-img" loading="lazy">
+                    </div>
+                    <div class="variant-info">
+                        <h3 class="variant-name">Mocha</h3>
+                        <p class="variant-desc">Belgian cocoa meets artisanal cold brew. Decadent and refined.</p>
+                        <span class="variant-tag">330ML · COLD BREWED</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action Section -->
+    <section id="cta" class="section section-cta">
+        <div class="cta-bg-wrapper">
+            <img src="IMAGE/ezgif-frame-005.jpg" alt="AUREN coffee experience" class="cta-bg-img" loading="lazy">
+            <div class="cta-bg-overlay"></div>
+        </div>
+        <div class="section-inner">
+            <div class="cta-content reveal-up">
+                <span class="cta-label">READY?</span>
+                <h2 class="cta-title">Experience<br><em>AUREN</em></h2>
+                <p class="cta-text">Discover the cold brew that's redefining premium coffee. Crafted for those who demand more.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="cta-btn cta-btn-primary" id="ctaBtnPrimary">
+                        <span>Experience AUREN</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="cta-btn cta-btn-secondary" id="ctaBtnSecondary">
+                        <span>Discover the Cold Brew</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-bharti">BHARTI</span>
+                        <span class="logo-glooms">GLOOMS</span>
+                    </div>
+                    <p class="footer-tagline">Premium Cold Brew Coffee</p>
+                </div>
+                <div class="footer-nav">
+                    <div class="footer-col">
+                        <h4 class="footer-col-title">Explore</h4>
+                        <a href="#product" class="footer-link">Product</a>
+                        <a href="#sensory" class="footer-link">Sensory</a>
+                        <a href="#story" class="footer-link">Our Story</a>
+                        <a href="#variants" class="footer-link">Variants</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4 class="footer-col-title">Connect</h4>
+                        <a href="#" class="footer-link">Instagram</a>
+                        <a href="#" class="footer-link">Twitter</a>
+                        <a href="#" class="footer-link">LinkedIn</a>
+                        <a href="#" class="footer-link">YouTube</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4 class="footer-col-title">Legal</h4>
+                        <a href="#" class="footer-link">Privacy Policy</a>
+                        <a href="#" class="footer-link">Terms of Service</a>
+                        <a href="#" class="footer-link">Cookies</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span class="footer-copy">&copy; 2024 BHARTI GLOOMS. All rights reserved.</span>
+                <span class="footer-made">Crafted with obsession.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
